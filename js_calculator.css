@@ -1,0 +1,94 @@
+#CBody{
+    height: 600px;
+    width: 470px;
+    background: rgb(139 134 167);
+    margin-left: 2em;
+    margin-top: 75px;
+    border: rgb(0, 0, 0) solid 5px;
+    border-radius: 30px;
+    float: left;
+}
+#display{
+    height: 50px;
+    width:378px ;
+    margin-left: 40px;
+    margin-top:40px ;
+    background: black;
+    border: solid brown;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    text-align: end;
+}
+.op{
+    pointer-events: none;
+}
+.row1{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.but{
+    height: 80px;
+    width: 94px;
+    border: solid brown 3px;
+    font-size: 45px;
+    font-weight: bolder;
+    background-color: #fcfdbe;
+}
+.row{
+    margin-left: 40px;
+    margin-top: 13px;
+}
+#clear_but{
+    height: 80px;
+    width: 387px;
+    border: solid brown 3px;
+    font-size: 45px;
+    font-weight: bolder;
+    background: #fcfdbe;
+}
+.outbutton{
+    float: left;
+    background: rgb(240, 136, 0);
+    height: 600px;
+    color: rgb(0, 0, 0);
+    width: 600px;
+    margin-top: 75px;
+    border: solid 5px black;
+    border-radius: 30px;
+    
+}
+.head{
+    margin-left: 200px;
+    margin-top: 35px;
+}
+.subhead{
+    margin-top: 35px;
+    margin-left: 20px;
+
+}
+.back{
+    width: 50%;
+    float: left;
+}
+.butcon{
+    float: left;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+.subhead2{
+    margin-left: 45px;
+}
+body{
+   
+    user-select: none;
+    background:rgb(240, 136, 0)
+}
+.main{
+    margin-left: -2em;
+}

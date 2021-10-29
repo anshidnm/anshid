@@ -1,0 +1,27 @@
+#my-image{
+    height: 20em;
+    width: 20em;
+}
+.ser{
+    margin-right: 4em;
+    margin-top: 1em;
+}
+#cal{
+    height: 12em;
+}
+.btn{
+    width: 100%;
+}
+#sub{
+    padding-right: 11em;
+}
+#head{
+    z-index: 1;
+}
+.mar-top{
+    margin-top: 10em;
+}
+.ab{
+    margin-right: 2em;
+    margin-top: 1em;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="js_calculator.css" type="text/css">
+    <title>Calculator</title>
+</head>
+<body>
+   <script src="js_calculator.js"></script> 
+ <div class="main"> 
+     <div class="container">
+         <div class="row">
+             <div class="col-md-6">
+     <div class="outbutton">
+         <div>
+             <h1  class="head">CONTROLS</h1>
+             <div class="back">
+                 <h2  class="subhead">BACKGROUND</h2>
+                 <button class="b" style="background-color: red;" onclick="bg('red')">RED</button><br>
+                 <button class="b" style="background-color: green;" onclick="bg('green')">GREEN</button><br>
+                 <button class="b" style="background-color: blue;" onclick="bg('blue')">BLUE</button><br>
+                 <button class="b" style="background-color:grey;" onclick="bg('grey')">GREY</button>
+                 <button class="reset" style="background-color: rgb(139 134 167);" onclick="reset1('rgb(139 134 167)')">RESET</button>
+             </div>
+             <div class="butcon">
+                 <h2 class="subhead2">BUTTON</h2>
+                 <button class="b" style="background-color: red;" onclick="but('red')">RED</button><br>
+                 <button class="b" style="background-color: green;" onclick="but('green')">GREEN</button><br>
+                 <button class="b" style="background-color: blue;" onclick="but('blue')">BLUE</button><br>
+                 <button class="b" style="background-color:grey;" onclick="but('grey')">GREY</button>
+                 <button class="reset" style="background-color:  #fcfdbe;" onclick="reset2('#fcfdbe')">RESET</button>
+             </div>
+
+         </div>
+    </div>
+    </div>
+    </div> 
+    </div>
+     <div id="CBody">
+        <div class="op">
+            <input type="text" id="display">
+
+        </div>
+        <div class="buttons">
+            <div class="row1">
+                <button class="but" onclick="clicked('7')">7</button>
+                <button class="but" onclick="clicked('8')">8</button>
+                <button class="but" onclick="clicked('9')">9</button>
+                <button class="but" onclick="clicked('/')">/</button>
+
+            </div>
+            <div class="row">
+                <button class="but" onclick="clicked('4')">4</button>
+                <button class="but" onclick="clicked('5')">5</button>
+                <button class="but" onclick="clicked('6')">6</button>
+                <button class="but" onclick="clicked('*')">X</button>
+
+            </div>
+            <div class="row">
+                <button class="but" onclick="clicked('1')">1</button>
+                <button class="but" onclick="clicked('2')">2</button>
+                <button class="but" onclick="clicked('3')">3</button>
+                <button class="but" onclick="clicked('-')">-</button>
+
+            </div>
+            <div class="row">
+                <button class="but" onclick="clicked('.')">.</button>
+                <button class="but" onclick="clicked('0')">0</button>
+                <button class="but" onclick="equalbutton()">=</button>
+                <button class="but" onclick="clicked('+')">+</button>
+
+            </div>
+            <div class="row">
+                <button id="clear_but" onclick="clearbutton('')">CLEAR</button>
+            </div>
+
+
+        </div>
+   </div>
+</div>
+</body>
+</html>
